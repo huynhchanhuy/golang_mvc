@@ -1,0 +1,139 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "b1KgRkWqz0RmrEBK6IJ8kOJva6w=",
+			"path": "cloud.google.com/go/compute/metadata",
+			"revision": "9848abf4c5fe4533b645722dbab034b316564bca",
+			"revisionTime": "2018-12-14T01:20:10Z"
+		},
+		{
+			"checksumSHA1": "7CrssYdcdvdj6JCOKIj/ZAo9pLc=",
+			"path": "github.com/dghubble/gologin",
+			"revision": "b583eae78663394885200708baf607a22b74fadf",
+			"revisionTime": "2018-11-20T07:55:30Z"
+		},
+		{
+			"checksumSHA1": "yhiM1rwT7gL9Q9Ek5eCwdoXtE+4=",
+			"path": "github.com/dghubble/gologin/google",
+			"revision": "b583eae78663394885200708baf607a22b74fadf",
+			"revisionTime": "2018-11-20T07:55:30Z"
+		},
+		{
+			"checksumSHA1": "d5dgKZB4NKDuUG3g3E5bMef0XCQ=",
+			"path": "github.com/dghubble/gologin/internal",
+			"revision": "b583eae78663394885200708baf607a22b74fadf",
+			"revisionTime": "2018-11-20T07:55:30Z"
+		},
+		{
+			"checksumSHA1": "GWCNtcJdFWGqpJMGgmmWcKAg/qU=",
+			"path": "github.com/dghubble/gologin/oauth2",
+			"revision": "b583eae78663394885200708baf607a22b74fadf",
+			"revisionTime": "2018-11-20T07:55:30Z"
+		},
+		{
+			"checksumSHA1": "izIPT8pa+w1Inz4z7yrzyLyf1To=",
+			"path": "github.com/gorilla/mux",
+			"revision": "ef912dd76ebe9d9848c6e0fd80eaebccc9a11631",
+			"revisionTime": "2018-12-28T00:42:16Z"
+		},
+		{
+			"checksumSHA1": "NScdwrIOpSH9hoP7i3a6JGmE5rw=",
+			"path": "github.com/gorilla/securecookie",
+			"revision": "e65cf8c5df817c89aeb47ecb46064e802e2de943",
+			"revisionTime": "2018-10-10T17:46:47Z"
+		},
+		{
+			"checksumSHA1": "csomktSHfKVMLgh9B6nikPxd6sk=",
+			"path": "github.com/gorilla/sessions",
+			"revision": "12bd4761fc66ac946e16fcc2a32b1e0b066f6177",
+			"revisionTime": "2018-12-08T21:45:19Z"
+		},
+		{
+			"checksumSHA1": "I+g5iffd0bNDiI8swxzsHiJxBz0=",
+			"path": "github.com/joho/godotenv",
+			"revision": "69ed1d913aa885da390dd6de9febf063d101b097",
+			"revisionTime": "2018-11-20T19:47:48Z"
+		},
+		{
+			"checksumSHA1": "UE4lhbPYYWEhqHXQk24OA73m5+8=",
+			"path": "github.com/joho/godotenv/autoload",
+			"revision": "69ed1d913aa885da390dd6de9febf063d101b097",
+			"revisionTime": "2018-11-20T19:47:48Z"
+		},
+		{
+			"checksumSHA1": "ClyNDKGVhQH1K/IXbLZ1qMv0ddA=",
+			"path": "github.com/twinj/uuid",
+			"revision": "7bbe408d339787c56ec15568c947c0959db1b275",
+			"revisionTime": "2016-09-09T07:54:38Z"
+		},
+		{
+			"checksumSHA1": "aFpql3G+Nw8zkzfqLWQJNZC8pu0=",
+			"path": "golang.org/x/net/context/ctxhttp",
+			"revision": "927f97764cc334a6575f4b7a1584a147864d5723",
+			"revisionTime": "2018-12-19T06:27:23Z"
+		},
+		{
+			"checksumSHA1": "5+Wlq4i/9BUFndiLq5QMPvATj4w=",
+			"path": "golang.org/x/oauth2",
+			"revision": "d668ce993890a79bda886613ee587a69dd5da7a6",
+			"revisionTime": "2018-12-02T09:28:16Z"
+		},
+		{
+			"checksumSHA1": "aizsl78eqx16svvpIAr8noIpvSk=",
+			"path": "golang.org/x/oauth2/google",
+			"revision": "d668ce993890a79bda886613ee587a69dd5da7a6",
+			"revisionTime": "2018-12-02T09:28:16Z"
+		},
+		{
+			"checksumSHA1": "DMmcJ2yC1hddfBLeijo9nNkARcU=",
+			"path": "golang.org/x/oauth2/internal",
+			"revision": "d668ce993890a79bda886613ee587a69dd5da7a6",
+			"revisionTime": "2018-12-02T09:28:16Z"
+		},
+		{
+			"checksumSHA1": "huVltYnXdRFDJLgp/ZP9IALzG7g=",
+			"path": "golang.org/x/oauth2/jws",
+			"revision": "d668ce993890a79bda886613ee587a69dd5da7a6",
+			"revisionTime": "2018-12-02T09:28:16Z"
+		},
+		{
+			"checksumSHA1": "Qyhes/zuLDRC41nI/ko3IyHw8a8=",
+			"path": "golang.org/x/oauth2/jwt",
+			"revision": "d668ce993890a79bda886613ee587a69dd5da7a6",
+			"revisionTime": "2018-12-02T09:28:16Z"
+		},
+		{
+			"checksumSHA1": "RKvIl9YrICqcUYQFsY5BYBQBH8Y=",
+			"path": "google.golang.org/api/gensupport",
+			"revision": "19e022d8cf43ce81f046bae8cc18c5397cc7732f",
+			"revisionTime": "2018-12-17T16:25:14Z"
+		},
+		{
+			"checksumSHA1": "xLosGeduDIVpjOZWx7QKvVwQqiE=",
+			"path": "google.golang.org/api/googleapi",
+			"revision": "19e022d8cf43ce81f046bae8cc18c5397cc7732f",
+			"revisionTime": "2018-12-17T16:25:14Z"
+		},
+		{
+			"checksumSHA1": "1K0JxrUfDqAB3MyRiU1LKjfHyf4=",
+			"path": "google.golang.org/api/googleapi/internal/uritemplates",
+			"revision": "19e022d8cf43ce81f046bae8cc18c5397cc7732f",
+			"revisionTime": "2018-12-17T16:25:14Z"
+		},
+		{
+			"checksumSHA1": "XWTg4H/hErlU/EUtm9WzMd8FElM=",
+			"path": "google.golang.org/api/oauth2/v2",
+			"revision": "19e022d8cf43ce81f046bae8cc18c5397cc7732f",
+			"revisionTime": "2018-12-17T16:25:14Z"
+		},
+		{
+			"checksumSHA1": "iq5WdjScmTU+LfNoerLuwcnXpdM=",
+			"path": "gopkg.in/gomail.v2",
+			"revision": "81ebce5c23dfd25c6c67194b37d3dd3f338c98b1",
+			"revisionTime": "2016-04-11T21:29:32Z"
+		}
+	],
+	"rootPath": "github.com/heroku/huhu-frontend-app"
+}

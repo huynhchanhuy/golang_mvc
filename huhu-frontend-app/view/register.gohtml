@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <body>
+        <h1>REGISTER</h1>
+        <form name="login-form" method="POST" action="/register">
+            <div>
+                <label>Email</label>
+                <input type="text" name="email" required />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" minlength="6" required />
+            </div>
+            <div>
+                <label>Fullname</label>
+                <input type="text" name="fullname" required />
+            </div>
+            <div>
+                <label>Address</label>
+                <input type="text" name="address" required />
+            </div>
+            <div>
+                <label>Telephone</label>
+                <input type="text" name="telephone" required />
+            </div>
+            <input type="submit" />
+        </form>
+    </body>
+</html>

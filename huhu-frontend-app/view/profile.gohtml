@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    <h3>Welcome {{.Email}}</h3>
+    <form name="profile-form" method="POST" action="/profile">
+    <div>
+        <label><b>Fullname:</b></label>
+        <input type="text" name="fullname" value="{{.Fullname}}" required />
+    </div>
+    <div>
+        <label><b>Address:</b></label>
+        <input type="text" name="address" value="{{.Address}}" required />
+    </div>
+    <div>
+        <label><b>Telephone:</b></label>
+        <input type="text" name="telephone" value="{{.Telephone}}" required />
+    </div>
+    <br>
+    <input type="submit" name="submit" value="Save" />
+    </form>
+    <br>
+    <a href="/">Home</a> <a href="/logout">Logout</a>
+</body>
+</html>

@@ -1,0 +1,7 @@
+DIALECT=mysql
+DB_USERNAME=b9df8c0cf8d97e
+DB_PASSWORD=a761918b
+DB_HOST=us-cdbr-iron-east-01.cleardb.net
+DB_NAME=heroku_cc3c4325331b598
+CHARSET=utf8
+PORT=8000

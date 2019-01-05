@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Reset Password</title>
+    </head>
+    <body>
+        <h1>Reset password</h1>
+        <h4 id="errMsg" style="display:none; color:red">New password does not match with the confirmed password</h4>
+        <form method="POST">
+        <table>
+        <tr>      
+            <td>New password:</td>
+            <td><input id="password" name="password" type="password" required minlength="6" /></td>
+        </tr>
+        <tr>      
+            <td>Confirm new password:</td>
+            <td><input id="password2" name="password2" type="password" required minlength="6" /></td>
+        </tr>
+        <tr><td>&nbsp;</td></tr>
+        <tr>
+            <td>&nbsp;</td><td><input id="submit" type="submit" value="Reset password"/></td>
+        </tr>
+        </table>
+        </form>
+        <script>
+            (function() {
+                document.getElementById("password").addEventListener('keyup', matched);
+                document.getElementById("password2").addEventListener('keyup', matched);
+
+                function matched(){
+                    var password = document.getElementById("password").value;
+                    var password2 = document.getElementById("password2").value;
+                    if (password != password2) {
+                        document.getElementById("submit").disabled = true;
+                        document.getElementById("errMsg").style.display = "block";
+                    } else {
+                        document.getElementById("submit").disabled = false;
+                        document.getElementById("errMsg").style.display = "none";
+                    }
+                }
+            })();
+        </script>
+    </body>
+</html>
