@@ -92,7 +92,6 @@ func Login(db *gorm.DB, w http.ResponseWriter, r *http.Request) {
 	var users models.User
 	err = models.OneUserLogin(db, project.Email, &users)
 	if err != nil {
-		println(err.Error())
 		respondError(w, http.StatusUnauthorized, "Wrong email or password")
 		return
 	}
@@ -116,7 +115,6 @@ func VerifyByEmail(db *gorm.DB, w http.ResponseWriter, r *http.Request) {
 	var users models.User
 	err = models.OneUserLogin(db, project.Email, &users)
 	if err != nil {
-		println(err.Error())
 		respondError(w, http.StatusNotFound, "Not found")
 		return
 	}
